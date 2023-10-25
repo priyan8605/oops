@@ -1,4 +1,4 @@
-package oops.interfaces;
+package interfaces;
 
 public class webdeveloper implements developer {
     @Override
@@ -6,8 +6,7 @@ public class webdeveloper implements developer {
         System.out.println("i am a web developer");
     }
 
-   public void init()
-   {
-    System.out.println("overiding initnmethod withchilds object");
-   }
+    public void init() {
+        System.out.println("overiding initnmethod withchilds object");
+    }
 }

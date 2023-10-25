@@ -1,6 +1,6 @@
-package oops.interfaces.static_prevent_overriding;
+package interfaces.static_prevent_overriding;
 
-import oops.static_function;
+//import oops.static_function;
 
 public interface servlet {
     static public void init() {

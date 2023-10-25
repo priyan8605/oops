@@ -1,4 +1,4 @@
-package oops.interfaces;
+package interfaces;
 
 public interface shape {
     public static final int i = 34;

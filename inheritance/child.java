@@ -1,4 +1,4 @@
-package oops.inheritance;
+package inheritance;
 
 public class child extends base_child {
   double weight;

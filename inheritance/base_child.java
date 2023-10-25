@@ -1,4 +1,4 @@
-package oops.inheritance;
+package inheritance;
 
 public class base_child {
     double l;

@@ -1,4 +1,4 @@
-package oops.interfaces;
+package interfaces;
 
 public class androiddeveloper implements developer {
     @Override

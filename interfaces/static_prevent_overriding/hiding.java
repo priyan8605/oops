@@ -1,4 +1,4 @@
-package oops.interfaces.static_prevent_overriding;
+package interfaces.static_prevent_overriding;
 
 public class hiding {
     public static void hide() {

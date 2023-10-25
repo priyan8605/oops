@@ -1,4 +1,4 @@
-package oops.questions;
+package questions;
 
 public class multiplication {
     public static step multi(step f1, step f2) {

@@ -1,4 +1,4 @@
-package oops.interfaces;
+package interfaces;
 
 public interface developer {
     void develop();

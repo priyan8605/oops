@@ -1,4 +1,4 @@
-package oops.access_control;
+package access_control;
 
 public class A {
     private int num;// as num is private hence it can be accessed only within class A

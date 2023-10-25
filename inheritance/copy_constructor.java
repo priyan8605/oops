@@ -1,4 +1,4 @@
-package oops.inheritance;
+package inheritance;
 
 public class copy_constructor {
     String name;
@@ -14,8 +14,8 @@ public class copy_constructor {
     }
 
     public static void main(String[] args) {
-        copy_constructor obj1=new copy_constructor("happy");
-        copy_constructor obj2=new copy_constructor(obj1);
+        copy_constructor obj1 = new copy_constructor("happy");
+        copy_constructor obj2 = new copy_constructor(obj1);
         System.out.println(obj2.name);
     }
 }

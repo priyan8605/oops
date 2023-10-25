@@ -1,4 +1,4 @@
-package oops.abstracts;
+package abstracts;
 
 abstract public class abstract_class {
 

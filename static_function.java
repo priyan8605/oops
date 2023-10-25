@@ -1,4 +1,3 @@
-package oops;
 
 class statick {
     private static int number = 5;

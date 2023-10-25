@@ -1,6 +1,6 @@
-package oops.questions;
+package questions;
 
-import oops.static_function;
+//import oops.static_function;
 
 public class fraction {
     public static step add(step f1, step f2)// here step add bcoz return type is step

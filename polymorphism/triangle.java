@@ -1,4 +1,4 @@
-package oops.polymorphism;
+package polymorphism;
 
 public class triangle extends shapes {
     void area() {

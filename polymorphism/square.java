@@ -1,4 +1,4 @@
-package oops.polymorphism;
+package polymorphism;
 
 public class square extends shapes {
     void area() {

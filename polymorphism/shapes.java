@@ -1,4 +1,4 @@
-package oops.polymorphism;
+package polymorphism;
 //final keyword is used to prevent method overriding
 
 public class shapes {

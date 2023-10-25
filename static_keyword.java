@@ -1,4 +1,3 @@
-package oops;
 
 class studen {
     String name;
@@ -6,7 +5,7 @@ class studen {
     double percent;
     private static int numberofstudents = 5;
 
-    public int getnumberofstudent() //getter
+    public int getnumberofstudent() // getter
     {
         return numberofstudents;
     }
@@ -26,7 +25,7 @@ public class static_keyword {
 
         // System.out.println(studen.numberofstudents);
         studen s1 = new studen("ram", 15, 99.9);
-        System.out.println(s1.getnumberofstudent()); 
+        System.out.println(s1.getnumberofstudent());
         studen s2 = new studen("raj", 17, 55.6);
         System.out.println(s2.getnumberofstudent());
 
