@@ -1,31 +1,27 @@
 package MultiThreading;
 
 class Displays {
-    public synchronized void m1()// executed by t1 thread
+    public static synchronized void m1()// executed by t1 thread
     {
         System.out.println(Thread.currentThread());
         for (int i = 1; i <= 4; i++) {
             System.out.println(i);
             try {
-                Thread.sleep(2000);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
 
             }
         }
     }
 
-    public synchronized void m2()//executed by t2 thread
+    public static synchronized void m2()// executed by t2 thread
     {
         System.out.println(Thread.currentThread());
-        for(int i=65;i<=69;i++)
-        {
+        for (int i = 65; i <= 69; i++) {
             System.out.println(i);
-            try 
-            {
-                Thread.sleep(2000);
-            }
-            catch(InterruptedException e)
-            {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
 
             }
         }
