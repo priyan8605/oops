@@ -1,12 +1,11 @@
-//package MultiThreading;
 
-class Displays1 {
+class Displayes1 {
     public void wish(String name) {
         System.out.println(Thread.currentThread() + "ram");
         System.out.println(Thread.currentThread() + "shyam");
         System.out.println(Thread.currentThread() + "raj");
 
-        synchronized (this)// whichever thread gets lock of current object that only can access it
+        synchronized (Displayes1.class)// whichever thread gets lock of current object that only can access it
         {
             System.out.println(Thread.currentThread());
             for (int i = 1; i <= 4; i++) {
@@ -25,11 +24,11 @@ class Displays1 {
     }
 }
 
-class MyThread23 extends Thread {
-    Displays1 d;
+class MyThread24 extends Thread {
+    Displayes1 d;
     String name;
 
-    MyThread23(Displays1 d, String name) {
+    MyThread24(Displayes1 d, String name) {
         this.d = d;
         this.name = name;
     }
@@ -40,14 +39,14 @@ class MyThread23 extends Thread {
     }
 }
 
-public class Code25 {
-    public static void main(String[] args) {
-        Displays1 D1 = new Displays1();
-        Displays1 D2 = new Displays1();
-        MyThread23 t1 = new MyThread23(D1, "dhoni");
-        MyThread23 t2 = new MyThread23(D2, "virat");
+public class Code26
+{
+     public static void main(String[] args){ 
+        Displayes1 D1 = new Displayes1();
+        Displayes1 D2 = new Displayes1();
+        MyThread24 t1 = new MyThread24(D1, "dhoni");
+        MyThread24 t2 = new MyThread24(D2, "virat");
         t1.start();
         t2.start();
-    }
-
+     }
 }
